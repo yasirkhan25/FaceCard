@@ -53,7 +53,7 @@ class PurchaseZaps extends StatelessWidget {
             children: [
               Center(
                 child: Padding(
-                  padding: EdgeInsets.only(top: 25, bottom: 5),
+                  padding: EdgeInsets.only(top: 10, bottom: 5),
                   child: Container(
                       height: MediaQuery.of(context).size.height * 0.05,
                       width: MediaQuery.of(context).size.width * 0.9,
@@ -62,7 +62,7 @@ class PurchaseZaps extends StatelessWidget {
                         borderRadius: BorderRadius.circular(15),
                       ),
                       child: TextField(
-                        textAlign: TextAlign.start,
+                        //textAlign: TextAlign.start,
                         obscureText: true,
                         decoration: InputDecoration(
                           border: OutlineInputBorder(),
@@ -75,10 +75,10 @@ class PurchaseZaps extends StatelessWidget {
                       )),
                 ),
               ),
-
+////ghg
               ///GridView Builder Container
               Container(
-                // height: MediaQuery.of(context).size.height*0.75,
+                height: MediaQuery.of(context).size.height*0.75,
                 width: MediaQuery.of(context).size.width,
                 margin: EdgeInsets.only(left: 25, right: 25),
                 child: GridView.builder(

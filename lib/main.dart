@@ -16,8 +16,8 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'FaceCard',
       home:
-      GraphPerformance(),
-      //PurchaseZaps(),
+      //GraphPerformance(),
+      PurchaseZaps(),
       //ProfilePage(),
       //CashOut(),
     );

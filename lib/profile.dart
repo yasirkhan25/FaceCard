@@ -154,6 +154,7 @@ class ProfilePage extends StatelessWidget {
                     ),
                     onTap: () {
                       print('Invite Button Clicked');
+                      print('click');
                     },
                   ),
                 ],
